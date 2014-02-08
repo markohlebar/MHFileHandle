@@ -7,10 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421BE7A1F1CB450D83807314 /* libPods-MHFileHandleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C8A6A0CBB4ED492B36FCA /* libPods-MHFileHandleTests.a */; };
+		968D5CB118A66CE0006EA5E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968D5C9C18A66C93006EA5E5 /* XCTest.framework */; };
+		968D5CB718A66CE0006EA5E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 968D5CB518A66CE0006EA5E5 /* InfoPlist.strings */; };
+		968D5CC118A66D7C006EA5E5 /* MHFileHandleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 968D5CC018A66D7C006EA5E5 /* MHFileHandleSpec.m */; };
+		968D5CC418A66DA9006EA5E5 /* MHFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 968D5CC318A66DA9006EA5E5 /* MHFileHandle.m */; };
+		968D5CC818A66DF1006EA5E5 /* NSMutableIndexSet+NSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 968D5CC718A66DF1006EA5E5 /* NSMutableIndexSet+NSArray.m */; };
+		968D5CCC18A66E60006EA5E5 /* NSString+Files.m in Sources */ = {isa = PBXBuildFile; fileRef = 968D5CCB18A66E60006EA5E5 /* NSString+Files.m */; };
+		968D5CCD18A66EB1006EA5E5 /* MHFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 968D5CC318A66DA9006EA5E5 /* MHFileHandle.m */; };
 		96C9C38618A66887008529DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C9C38518A66887008529DB /* Foundation.framework */; };
 		96C9C38918A66887008529DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C9C38818A66887008529DB /* main.m */; };
 		96C9C38D18A66887008529DB /* MHFileHandle.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96C9C38C18A66887008529DB /* MHFileHandle.1 */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		968D5CBB18A66CE0006EA5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C9C37A18A66887008529DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C9C38118A66887008529DB;
+			remoteInfo = MHFileHandle;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		96C9C38018A66887008529DB /* CopyFiles */ = {
@@ -26,14 +44,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		966C8A6A0CBB4ED492B36FCA /* libPods-MHFileHandleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHFileHandleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968D5C9C18A66C93006EA5E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		968D5CB018A66CE0006EA5E5 /* MHFileHandleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHFileHandleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		968D5CB418A66CE0006EA5E5 /* MHFileHandleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MHFileHandleTests-Info.plist"; sourceTree = "<group>"; };
+		968D5CB618A66CE0006EA5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		968D5CBA18A66CE0006EA5E5 /* MHFileHandleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHFileHandleTests-Prefix.pch"; sourceTree = "<group>"; };
+		968D5CC018A66D7C006EA5E5 /* MHFileHandleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFileHandleSpec.m; sourceTree = "<group>"; };
+		968D5CC218A66DA9006EA5E5 /* MHFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFileHandle.h; sourceTree = "<group>"; };
+		968D5CC318A66DA9006EA5E5 /* MHFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFileHandle.m; sourceTree = "<group>"; };
+		968D5CC618A66DF1006EA5E5 /* NSMutableIndexSet+NSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+NSArray.h"; sourceTree = "<group>"; };
+		968D5CC718A66DF1006EA5E5 /* NSMutableIndexSet+NSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+NSArray.m"; sourceTree = "<group>"; };
+		968D5CC918A66E36006EA5E5 /* MHImportBusterTestsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHImportBusterTestsHelper.h; sourceTree = "<group>"; };
+		968D5CCA18A66E60006EA5E5 /* NSString+Files.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Files.h"; sourceTree = "<group>"; };
+		968D5CCB18A66E60006EA5E5 /* NSString+Files.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Files.m"; sourceTree = "<group>"; };
 		96C9C38218A66887008529DB /* MHFileHandle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MHFileHandle; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C9C38518A66887008529DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96C9C38818A66887008529DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96C9C38B18A66887008529DB /* MHFileHandle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHFileHandle-Prefix.pch"; sourceTree = "<group>"; };
 		96C9C38C18A66887008529DB /* MHFileHandle.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MHFileHandle.1; sourceTree = "<group>"; };
+		FDDCD78099594C3BAD84E747 /* Pods-MHFileHandleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHFileHandleTests.xcconfig"; path = "Pods/Pods-MHFileHandleTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		968D5CAD18A66CE0006EA5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968D5CB118A66CE0006EA5E5 /* XCTest.framework in Frameworks */,
+				421BE7A1F1CB450D83807314 /* libPods-MHFileHandleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96C9C37F18A66887008529DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,12 +87,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		968D5CB218A66CE0006EA5E5 /* MHFileHandleTests */ = {
+			isa = PBXGroup;
+			children = (
+				968D5CC518A66DDA006EA5E5 /* External */,
+				968D5CC018A66D7C006EA5E5 /* MHFileHandleSpec.m */,
+				968D5CB318A66CE0006EA5E5 /* Supporting Files */,
+			);
+			path = MHFileHandleTests;
+			sourceTree = "<group>";
+		};
+		968D5CB318A66CE0006EA5E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				968D5CB418A66CE0006EA5E5 /* MHFileHandleTests-Info.plist */,
+				968D5CB518A66CE0006EA5E5 /* InfoPlist.strings */,
+				968D5CBA18A66CE0006EA5E5 /* MHFileHandleTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		968D5CC518A66DDA006EA5E5 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				968D5CC918A66E36006EA5E5 /* MHImportBusterTestsHelper.h */,
+				968D5CCA18A66E60006EA5E5 /* NSString+Files.h */,
+				968D5CCB18A66E60006EA5E5 /* NSString+Files.m */,
+				968D5CC618A66DF1006EA5E5 /* NSMutableIndexSet+NSArray.h */,
+				968D5CC718A66DF1006EA5E5 /* NSMutableIndexSet+NSArray.m */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
 		96C9C37918A66887008529DB = {
 			isa = PBXGroup;
 			children = (
 				96C9C38718A66887008529DB /* MHFileHandle */,
+				968D5CB218A66CE0006EA5E5 /* MHFileHandleTests */,
 				96C9C38418A66887008529DB /* Frameworks */,
 				96C9C38318A66887008529DB /* Products */,
+				FDDCD78099594C3BAD84E747 /* Pods-MHFileHandleTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				96C9C38218A66887008529DB /* MHFileHandle */,
+				968D5CB018A66CE0006EA5E5 /* MHFileHandleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				96C9C38518A66887008529DB /* Foundation.framework */,
+				968D5C9C18A66C93006EA5E5 /* XCTest.framework */,
+				966C8A6A0CBB4ED492B36FCA /* libPods-MHFileHandleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,6 +152,8 @@
 		96C9C38718A66887008529DB /* MHFileHandle */ = {
 			isa = PBXGroup;
 			children = (
+				968D5CC218A66DA9006EA5E5 /* MHFileHandle.h */,
+				968D5CC318A66DA9006EA5E5 /* MHFileHandle.m */,
 				96C9C38818A66887008529DB /* main.m */,
 				96C9C38C18A66887008529DB /* MHFileHandle.1 */,
 				96C9C38A18A66887008529DB /* Supporting Files */,
@@ -91,6 +172,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		968D5CAF18A66CE0006EA5E5 /* MHFileHandleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968D5CBD18A66CE0006EA5E5 /* Build configuration list for PBXNativeTarget "MHFileHandleTests" */;
+			buildPhases = (
+				7260D24AD43040BA9D1C3819 /* Check Pods Manifest.lock */,
+				968D5CAC18A66CE0006EA5E5 /* Sources */,
+				968D5CAD18A66CE0006EA5E5 /* Frameworks */,
+				968D5CAE18A66CE0006EA5E5 /* Resources */,
+				5354438071C64BDF98D212D3 /* Copy Pods Resources */,
+				968D5CD818A66F0F006EA5E5 /* Copy Test Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968D5CBC18A66CE0006EA5E5 /* PBXTargetDependency */,
+			);
+			name = MHFileHandleTests;
+			productName = MHFileHandleTests;
+			productReference = 968D5CB018A66CE0006EA5E5 /* MHFileHandleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		96C9C38118A66887008529DB /* MHFileHandle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96C9C39018A66887008529DB /* Build configuration list for PBXNativeTarget "MHFileHandle" */;
@@ -116,6 +218,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Marko Hlebar";
+				TargetAttributes = {
+					968D5CAF18A66CE0006EA5E5 = {
+						TestTargetID = 96C9C38118A66887008529DB;
+					};
+				};
 			};
 			buildConfigurationList = 96C9C37D18A66887008529DB /* Build configuration list for PBXProject "MHFileHandle" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,22 +237,148 @@
 			projectRoot = "";
 			targets = (
 				96C9C38118A66887008529DB /* MHFileHandle */,
+				968D5CAF18A66CE0006EA5E5 /* MHFileHandleTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		968D5CAE18A66CE0006EA5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968D5CB718A66CE0006EA5E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5354438071C64BDF98D212D3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MHFileHandleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7260D24AD43040BA9D1C3819 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		968D5CD818A66F0F006EA5E5 /* Copy Test Files */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Test Files";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -a ${SOURCE_ROOT}/MHFileHandleTests/TestFiles/ ${TARGET_BUILD_DIR}/${PRODUCT_NAME}.xctest/Contents/Resources/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		968D5CAC18A66CE0006EA5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968D5CCC18A66E60006EA5E5 /* NSString+Files.m in Sources */,
+				968D5CC818A66DF1006EA5E5 /* NSMutableIndexSet+NSArray.m in Sources */,
+				968D5CCD18A66EB1006EA5E5 /* MHFileHandle.m in Sources */,
+				968D5CC118A66D7C006EA5E5 /* MHFileHandleSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96C9C37E18A66887008529DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968D5CC418A66DA9006EA5E5 /* MHFileHandle.m in Sources */,
 				96C9C38918A66887008529DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		968D5CBC18A66CE0006EA5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C9C38118A66887008529DB /* MHFileHandle */;
+			targetProxy = 968D5CBB18A66CE0006EA5E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		968D5CB518A66CE0006EA5E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968D5CB618A66CE0006EA5E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		968D5CBE18A66CE0006EA5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDCD78099594C3BAD84E747 /* Pods-MHFileHandleTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHFileHandleTests/MHFileHandleTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MHFileHandleTests/MHFileHandleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		968D5CBF18A66CE0006EA5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDCD78099594C3BAD84E747 /* Pods-MHFileHandleTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHFileHandleTests/MHFileHandleTests-Prefix.pch";
+				INFOPLIST_FILE = "MHFileHandleTests/MHFileHandleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		96C9C38E18A66887008529DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -235,6 +468,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		968D5CBD18A66CE0006EA5E5 /* Build configuration list for PBXNativeTarget "MHFileHandleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968D5CBE18A66CE0006EA5E5 /* Debug */,
+				968D5CBF18A66CE0006EA5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		96C9C37D18A66887008529DB /* Build configuration list for PBXProject "MHFileHandle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -251,6 +493,7 @@
 				96C9C39218A66887008529DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

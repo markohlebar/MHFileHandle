@@ -28,6 +28,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "968D5C9A18A66C93006EA5E5"
+               BuildableName = "MHFileHandle Tests.xctest"
+               BlueprintName = "MHFileHandle Tests"
+               ReferencedContainer = "container:MHFileHandle.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "968D5CAF18A66CE0006EA5E5"
+               BuildableName = "MHFileHandleTests.xctest"
+               BlueprintName = "MHFileHandleTests"
+               ReferencedContainer = "container:MHFileHandle.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
